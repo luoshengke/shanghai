@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="COMMON">
+      <UniqueIdentifier>{dee71055-1b8e-4802-a68b-dc6e1b027dd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\EAtmMainProject.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EAtmMainProject.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\favicon.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\background.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NO_ELEC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SemiCMMBackground.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ResultOk.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120529.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120544.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120731.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120529 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Gray.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Gray1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Green.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Red.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Yellow.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_134448.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_134448 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HAS_ELEC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_163840.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ResultNG.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120731 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ok.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NG.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120544 - 副本 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-07-24_120544 - 副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\2015-08-18_164105.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_不合格_带框.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_合格_带框.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_检测中_带框.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_空货位.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_未扫描_带框.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_已扫描._带框bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_异常_带框.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_不合格_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_合格_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_检测中_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_空货位_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_未扫描_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_已扫描._带框_小bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\小\电极_异常_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_异常1_带框_大.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_异常1_带框_小.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\电极_已扫描._带框2bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_不合格_带框2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_合格_带框2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_检测中_带框2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_空货位2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_未扫描_带框2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\电极_异常_带框2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\不合格.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\合格.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\空白.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\未扫描.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\已扫描.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\异常.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\大图\正在检测.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="D:\Users\KingPen\Desktop\不合格2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\不合格.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\合格.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\空白.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\未扫描.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\已扫描.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\异常.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\上海展会图\正在检测.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EAtmMainProject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EAtmMainProjectDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCMMDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoOfElecDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewCMMResultDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CChildPWnd.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="CListCtrlEx.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="DragDropListCtrl.h">
+      <Filter>COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="EAtmCMMCommonFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCMMOperateData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EATM_NewUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="molddm_soft_lic_v9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EAtmGetDirectoryInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gdiplus\myGdiPlus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportCMMResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gdiplus\GdiPlus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt_Dialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frrjif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="frrobotiflib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EAtmMainProject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EAtmMainProjectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCMMDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoOfElecDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewCMMResultDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CChildPWnd.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="CListCtrlEx.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="DragDropListCtrl.cpp">
+      <Filter>COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="EAtmCMMCommonFun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCMMOperateData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EATM_NewUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EAtmGetDirectoryInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportCMMResult.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt_Dialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frrjif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="frrobotiflib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EAtmMainProject.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

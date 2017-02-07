@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{39C40965-84EA-4EEC-982C-9E64876CC1F2}</ProjectGuid>
+    <RootNamespace>EAtmMainProject</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Cryptst.lib;molddm_soft_lic_v9.lib;%(AdditionalDependencies);</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="D:\Users\KingPen\Desktop\不合格2.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\2015-07-24_120529 - 副本.bmp" />
+    <None Include="res\2015-07-24_120529.bmp" />
+    <None Include="res\2015-07-24_120544 - 副本 - 副本.bmp" />
+    <None Include="res\2015-07-24_120544 - 副本.bmp" />
+    <None Include="res\2015-07-24_120544.bmp" />
+    <None Include="res\2015-07-24_120731 - 副本.bmp" />
+    <None Include="res\2015-07-24_120731.bmp" />
+    <None Include="res\2015-07-24_134448 - 副本.bmp" />
+    <None Include="res\2015-07-24_134448.bmp" />
+    <None Include="res\2015-07-24_163840.bmp" />
+    <None Include="res\2015-08-18_164105.bmp" />
+    <None Include="res\background.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\EAtmMainProject.ico" />
+    <None Include="res\EAtmMainProject.rc2" />
+    <None Include="res\favicon.ico" />
+    <None Include="res\Gray.bmp" />
+    <None Include="res\Gray1.bmp" />
+    <None Include="res\Green.bmp" />
+    <None Include="res\HAS_ELEC.bmp" />
+    <None Include="res\NG.bmp" />
+    <None Include="res\NO_ELEC.bmp" />
+    <None Include="res\ok.bmp" />
+    <None Include="res\Red.bmp" />
+    <None Include="res\ResultNG.bmp" />
+    <None Include="res\ResultOk.bmp" />
+    <None Include="res\SemiCMMBackground.bmp" />
+    <None Include="res\Yellow.bmp" />
+    <None Include="res\上海展会图\不合格.bmp" />
+    <None Include="res\上海展会图\合格.bmp" />
+    <None Include="res\上海展会图\已扫描.bmp" />
+    <None Include="res\上海展会图\异常.bmp" />
+    <None Include="res\上海展会图\未扫描.bmp" />
+    <None Include="res\上海展会图\正在检测.bmp" />
+    <None Include="res\上海展会图\空白.bmp" />
+    <None Include="res\大图\不合格.bmp" />
+    <None Include="res\大图\合格.bmp" />
+    <None Include="res\大图\已扫描.bmp" />
+    <None Include="res\大图\异常.bmp" />
+    <None Include="res\大图\未扫描.bmp" />
+    <None Include="res\大图\正在检测.bmp" />
+    <None Include="res\大图\电极_不合格_带框2.bmp" />
+    <None Include="res\大图\电极_合格_带框2.bmp" />
+    <None Include="res\大图\电极_异常_带框2.bmp" />
+    <None Include="res\大图\电极_未扫描_带框2.bmp" />
+    <None Include="res\大图\电极_检测中_带框2.bmp" />
+    <None Include="res\大图\电极_空货位2.bmp" />
+    <None Include="res\大图\空白.bmp" />
+    <None Include="res\小\电极_不合格_带框_小.bmp" />
+    <None Include="res\小\电极_合格_带框_小.bmp" />
+    <None Include="res\小\电极_已扫描._带框_小bmp.bmp" />
+    <None Include="res\小\电极_异常_带框_小.bmp" />
+    <None Include="res\小\电极_未扫描_带框_小.bmp" />
+    <None Include="res\小\电极_检测中_带框_小.bmp" />
+    <None Include="res\小\电极_空货位_小.bmp" />
+    <None Include="res\电极_不合格_带框.bmp" />
+    <None Include="res\电极_合格_带框.bmp" />
+    <None Include="res\电极_已扫描._带框2bmp.bmp" />
+    <None Include="res\电极_已扫描._带框bmp.bmp" />
+    <None Include="res\电极_异常1_带框_大.bmp" />
+    <None Include="res\电极_异常1_带框_小.bmp" />
+    <None Include="res\电极_异常_带框.bmp" />
+    <None Include="res\电极_未扫描_带框.bmp" />
+    <None Include="res\电极_检测中_带框.bmp" />
+    <None Include="res\电极_空货位.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoCMMDialog.h" />
+    <ClInclude Include="AutoCMMOperateData.h" />
+    <ClInclude Include="CApplication.h" />
+    <ClInclude Include="CChildPWnd.h" />
+    <ClInclude Include="CFont0.h" />
+    <ClInclude Include="Chart.h" />
+    <ClInclude Include="ChartWnd.h" />
+    <ClInclude Include="CListCtrlEx.h" />
+    <ClInclude Include="CRange.h" />
+    <ClInclude Include="CWorkbook.h" />
+    <ClInclude Include="CWorkbooks.h" />
+    <ClInclude Include="CWorksheet.h" />
+    <ClInclude Include="CWorksheets.h" />
+    <ClInclude Include="DragDropListCtrl.h" />
+    <ClInclude Include="EAtmCMMCommonFun.h" />
+    <ClInclude Include="EAtmGetDirectoryInfo.h" />
+    <ClInclude Include="EAtmMainProject.h" />
+    <ClInclude Include="EAtmMainProjectDlg.h" />
+    <ClInclude Include="EATM_NewUser.h" />
+    <ClInclude Include="ExportCMMResult.h" />
+    <ClInclude Include="frrjif.h" />
+    <ClInclude Include="frrobotiflib.h" />
+    <ClInclude Include="gdiplus\GdiPlus.h" />
+    <ClInclude Include="gdiplus\myGdiPlus.h" />
+    <ClInclude Include="InfoOfElecDialog.h" />
+    <ClInclude Include="molddm_soft_lic_v9.h" />
+    <ClInclude Include="Prompt_Dialog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ViewCMMResultDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoCMMDialog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="AutoCMMOperateData.cpp" />
+    <ClCompile Include="CChildPWnd.cpp" />
+    <ClCompile Include="Chart.cpp" />
+    <ClCompile Include="ChartWnd.cpp" />
+    <ClCompile Include="CListCtrlEx.cpp" />
+    <ClCompile Include="DragDropListCtrl.cpp" />
+    <ClCompile Include="EAtmCMMCommonFun.cpp" />
+    <ClCompile Include="EAtmGetDirectoryInfo.cpp" />
+    <ClCompile Include="EAtmMainProject.cpp" />
+    <ClCompile Include="EAtmMainProjectDlg.cpp" />
+    <ClCompile Include="EATM_NewUser.cpp" />
+    <ClCompile Include="ExportCMMResult.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="frrjif.cpp" />
+    <ClCompile Include="frrobotiflib.cpp" />
+    <ClCompile Include="InfoOfElecDialog.cpp" />
+    <ClCompile Include="Prompt_Dialog.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ViewCMMResultDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EAtmMainProject.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EAtmMainProject.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
