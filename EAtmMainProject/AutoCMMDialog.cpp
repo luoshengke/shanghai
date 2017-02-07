@@ -19,7 +19,7 @@
 MSXML2::IXMLDOMDocument2Ptr   m_plDomDocument;  
 MSXML2::IXMLDOMElementPtr   m_pDocRoot; 
 
-// CAutoCMMDialog 对话框
+// CAutoCMMDialog 对话框 啊
 
 IMPLEMENT_DYNAMIC(CAutoCMMDialog, CDialogEx)
 
